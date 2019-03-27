@@ -1,0 +1,20 @@
+.billing-card-container{
+    box-shadow: 0 2px 6px 0.5px rgba(0,0,0,.12);
+    border-radius: 8px;
+    padding: 20px 16px;
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.billing-card-amount{
+    font-size: 18px;
+    font-weight: bold;
+}
+.billing-card-detail-btn{
+    color: #42b549;
+    font-size: 12px;
+}
+.billing-card-detail-btn:hover{
+    cursor: pointer;
+}

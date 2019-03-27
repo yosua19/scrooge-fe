@@ -1,0 +1,12 @@
+.gateway-detail-container{
+    margin-top: 48px;
+    padding-top: 12px;
+}
+.btn-confirm-container{
+    /*padding: 16px;*/
+    box-shadow: 0 -1px 7px 0 rgba(0,0,0,.15);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    /*display: flex;*/
+}

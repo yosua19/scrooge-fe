@@ -1,0 +1,19 @@
+.gateway-list-container{
+
+}
+/*header*/
+.gateway-list-header{
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+    padding: 12px 12px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.gateway-list-header-text{
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto 16px;
+
+}
+
+

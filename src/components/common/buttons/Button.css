@@ -1,0 +1,47 @@
+/*general class for button*/
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+}
+.btn-block{
+    width: 100%;
+}
+/*for sizes*/
+.btn-small{
+    font-size: 0.9rem;
+    padding: 8px;
+}
+.btn-medium{
+    font-size: 1rem;
+    padding: 10px;
+}
+.btn-large{
+    font-size: 1rem;
+    padding: 18px;
+}
+/*for color*/
+.btn-main{
+    background: radial-gradient(circle,transparent 1%,rgb(255,87,34) 1%) center center/15e3% #ff5722;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: center;
+    cursor: pointer;
+}
+.btn-main:hover{
+    background-color:#ff5722;
+}
+.btn-secondary{
+    color: #42b549;
+    border: 1px solid #42b549;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: center;
+    cursor: pointer;
+    background-color: white;
+}
+.btn-secondary:hover{
+    background-color: rgba(0,0,0,0.03);
+}

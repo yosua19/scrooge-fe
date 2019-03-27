@@ -1,0 +1,99 @@
+.quick-pay-container{
+    background-image: linear-gradient(to bottom,#fff,#ebffef);
+    /*height:210px;*/
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+.quick-pay-card{
+    width: auto;
+    /*height:200px;*/
+
+    margin: 16px;
+    box-shadow: rgba(0,0,0,.12) 0 2px 6px 0.5px;
+    border-radius: 8px;
+
+    background-color: white;
+}
+.quick-pay-gateway-image{
+    height: 32px;
+    width: 32px;
+    object-fit: contain;
+}
+
+/*for ovo*/
+.quick-pay-ovo-section{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    border-bottom: 1px solid #ededed;
+}
+.quick-pay-ovo-section-details{
+    padding-left: 16px;
+    width: 90%;
+ }
+.quick-pay-ovo-section-details > div{
+    display: flex;
+    width: 100%;
+    /*background-color: red;*/
+    flex-direction: row;
+    justify-content: space-between;
+}
+.quick-pay-ovo-section-details * {
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+.quick-pay-sprite-kebab{
+    margin: 0 0 0 16px ;
+}
+
+.quick-pay-ovo-ticker{
+    padding: 8px 16px;
+    background: #f8f8f8;
+    color: rgba(0,0,0,.54);
+    border-radius: 4px;
+    margin: 16px;
+}
+
+.quick-pay-ovo-ticker-details{
+    /*padding-left: 16px;*/
+    width: 100%;
+}
+.quick-pay-ovo-ticker-details > div{
+    display: flex;
+    width: 100%;
+    /*background-color: red;*/
+    flex-direction: row;
+    justify-content: space-between;
+}
+.quick-pay-ovo-ticker-details * {
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+/*billing section*/
+.quick-pay-billing-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px 16px 16px;
+}
+/*billing details*/
+.quick-pay-billing-details-container{
+    display: flex;
+    flex-direction: column;
+}
+.quick-pay-billing-details-text{
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+    padding-bottom: 2px;
+}
+.quick-pay-billing-details-text:hover{
+    cursor: pointer;
+}
+.quick-pay-billing-details-price{
+    font-size: 12px;
+    color: #fa591d;
+    font-weight: 700;
+}
+.quick-pay-btn-confirm-container{
+    width: 50%;
+}

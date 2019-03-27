@@ -1,0 +1,10 @@
+.landing-container{
+    padding-top: 68px;
+    /*background-color: red;*/
+    height: 100vh;
+}
+.landing-more-gateways-btn{
+    align-self: end;
+    /*bottom: 0;*/
+    /*position: fixed;*/
+}

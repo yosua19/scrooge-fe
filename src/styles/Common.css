@@ -1,0 +1,117 @@
+* {
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 16px;
+    letter-spacing: normal;
+    color: rgba(0,0,0,.7)
+}
+button:focus {
+    outline:0;
+}
+button:active{
+    background-color: rgba(0,0,0,0);
+}
+/*icons*/
+.chevron-right{
+    height: 16px;
+    width: 20px;
+    opacity: 0.6;
+}
+.sprite-kebab {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://ecs7.tokopedia.net/img/toppay/icon-kebab.svg);
+    width: 6px;
+    height: 20px;
+}
+.sprite-kebab:hover{
+    cursor: pointer;
+}
+.sprite-close{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://ecs7.tokopedia.net/img/toppay/close.png);
+    width: 30px;
+    height: 30px;
+}
+.sprite-close{
+    cursor: pointer;
+}
+.back-button{
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+.button-secondary-green{
+    color: #42b549;
+    border: 1px solid #42b549;
+    border-radius: 8px;
+    /*background: radial-gradient(circle,transparent 1%,#fff 1%) center center/15e3% #fff;*/
+
+    text-align: center;
+    font-weight: bold;
+    vertical-align: center;
+    cursor: pointer;
+}
+.button-secondary-green:hover{
+    background-color: rgba(0,0,0,0.03);
+}
+.button-large{
+    font-size: 1rem;
+    line-height: 32px;
+    padding: 6px;
+}
+.font-bold{
+    font-weight: bold;
+}
+.font-color-gray{
+    color: rgba(0,0,0,.7)
+}
+.font-color-black{
+    color: rgba(0,0,0,.54)
+}
+.font-size-12{
+    font-size: 12px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.padding-horizontal-8{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.padding-horizontal-16{
+     padding-left: 16px;
+     padding-right: 16px;
+ }
+.padding-vertical-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.margin-vertical-16{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.margin-horizontal-8{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.margin-horizontal-16{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.margin-vertical-8{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.margin-vertical-16{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
